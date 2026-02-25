@@ -105,8 +105,7 @@ export default function HeroSection() {
       <div className="track">
         <div className="road" id="road">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/car.png" alt="McLaren 720S" className="car" ref={carRef} />
-          <div className="trail" ref={trailRef} />
+<img src="/car-scroll-animation/car.png" alt="McLaren 720S" className="car" ref={carRef} />          <div className="trail" ref={trailRef} />
           <div className="value-add" id="valueText" ref={valueAddRef}>
             {LETTERS.map((ch, i) => (
               <span key={i} className="value-letter" ref={(el) => { lettersRef.current[i] = el; }}>
