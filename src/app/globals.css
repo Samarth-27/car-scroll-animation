@@ -100,10 +100,10 @@ body {
 }
 
 .value-add {
-  font-size: 8rem;
+  font-size: clamp(2rem, 5vw, 6rem);
   font-weight: bold;
   position: absolute;
-  left: 5%;
+  left: 2%;
   top: 30%;
   z-index: 5;
   display: flex;
