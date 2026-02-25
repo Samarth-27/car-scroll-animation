@@ -62,7 +62,7 @@ export default function HeroSection() {
       const valueRect     = valueAdd.getBoundingClientRect();
       const letterOffsets = letters.map((l) => l.offsetLeft);
       const roadWidth     = window.innerWidth;
-      const carWidth      = 150;
+      const carWidth      = 100;
       const endX          = roadWidth - carWidth;
 
       // Car moves on scroll
