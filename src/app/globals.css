@@ -108,7 +108,7 @@ body {
   top: 30%;
   z-index: 5;
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .value-letter {
