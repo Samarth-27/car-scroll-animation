@@ -121,6 +121,15 @@ export default function HeroSection() {
             {stat.label}
           </div>
         ))}
+    </div>
+      <div style={{
+        textAlign: "center",
+        padding: "20px",
+        color: "white",
+        fontSize: "16px",
+        background: "#121212"
+      }}>
+        Made by <strong>Samarth Jain</strong>
       </div>
     </div>
   );
